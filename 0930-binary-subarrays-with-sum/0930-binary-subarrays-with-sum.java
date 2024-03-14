@@ -10,7 +10,7 @@ class Solution {
                 goal += nums[i];
                 i++;
                 count++;
-                if(i>j - goal+){
+                if(i>j - goal+1){
                     break;
                 }
             }
